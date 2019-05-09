@@ -5,12 +5,4 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyProject1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="My Label" HorizontalAlignment="Left" Margin="137,83,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="149,174,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <ListBox HorizontalAlignment="Left" Height="100" Margin="210,267,0,0" VerticalAlignment="Top" Width="100"/>
-        <ContentControl Content="ContentControl" HorizontalAlignment="Left" Margin="524,190,0,0" VerticalAlignment="Top"/>
-
-    </Grid>
-</Window>
+        Title="MainWindow" Height="450" Width="800"/>
