@@ -11,7 +11,6 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="149,174,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <ListBox HorizontalAlignment="Left" Height="100" Margin="210,267,0,0" VerticalAlignment="Top" Width="100"/>
         <ContentControl Content="ContentControl" HorizontalAlignment="Left" Margin="524,190,0,0" VerticalAlignment="Top"/>
-        <GroupBox Header="GroupBox" HorizontalAlignment="Left" Height="100" Margin="429,109,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>
