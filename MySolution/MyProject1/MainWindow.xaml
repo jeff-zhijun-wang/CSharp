@@ -6,8 +6,16 @@
         xmlns:local="clr-namespace:MyProject1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <DockPanel HorizontalAlignment="Left" Height="100" LastChildFill="False" Margin="227,216,0,0" VerticalAlignment="Top" Width="100">
-        <GroupBox Header="GroupBox" Height="100" VerticalAlignment="Top" Width="100"/>
-        <ComboBox Height="100" VerticalAlignment="Top" Width="120"/>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" />
+                <MenuItem Header="_Open" />
+                <MenuItem Header="_Save" />
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+        </Menu>
+        <TextBox AcceptsReturn="True" />
     </DockPanel>
 </Window>
