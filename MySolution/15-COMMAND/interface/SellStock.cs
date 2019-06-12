@@ -7,6 +7,8 @@
         {
             this.abcStock = abcStock;
         }
+
+
         public void Execute()
         {
             abcStock.Sell();

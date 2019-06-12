@@ -2,7 +2,7 @@
 
 namespace _15_COMMAND
 {
-    public class Stock
+    public class Stock 
     {
         private string Name = "ABC";
         private int Quantity = 10;
