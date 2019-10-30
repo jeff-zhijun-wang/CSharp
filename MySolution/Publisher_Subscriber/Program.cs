@@ -19,11 +19,11 @@ namespace SampleApp
             Console.WriteLine("Welcome " + username);
         }
 
-            static void Main(string[] args)
-            {
-                EventProgram obj1 = new EventProgram();
-                obj1.MyEvent("test");
-                //Console.WriteLine(result);
-            }
+        static void Main(string[] args)
+        {
+            EventProgram obj1 = new EventProgram();
+            obj1.MyEvent("test");
+            //Console.WriteLine(result);
+        }
     }
 }

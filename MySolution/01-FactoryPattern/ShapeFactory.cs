@@ -2,7 +2,7 @@
 {
     public class ShapeFactory
     {
-        public IShape getShape(string shapeType)
+        public IShape createShape(string shapeType)
         {
             switch (shapeType.ToUpper())
             {
