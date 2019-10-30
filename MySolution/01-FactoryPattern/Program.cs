@@ -8,11 +8,11 @@ namespace _01_FactoryPattern
         static void Main(string[] args)
         {
             ShapeFactory shapeFactory = new ShapeFactory();
-            IShape shape1 = shapeFactory.getShape("RECTANGLE");
+            IShape shape1 = shapeFactory.createShape("RECTANGLE");
             shape1.draw();
-            IShape shape2 = shapeFactory.getShape("CIRCLE");
+            IShape shape2 = shapeFactory.createShape("CIRCLE");
             shape2.draw();
-            IShape shape3 = shapeFactory.getShape("SQUARE");
+            IShape shape3 = shapeFactory.createShape("SQUARE");
             shape3.draw();
             Console.WriteLine("Hello World!");
         }
